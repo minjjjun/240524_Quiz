@@ -5,9 +5,8 @@ class Bb:
         self.total = 0
 
     def sell(self):
-        print(self.name + "을", self.price, "에 팔았습니다.")
         self.total = 0 + self.price
-
+        print(self.name + "을", self.price, "에 팔았습니다.")
     def eat(self):
         print(self.name + "을 먹었습니다.")
 
